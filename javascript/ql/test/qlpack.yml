@@ -1,9 +1,9 @@
 name: codeql/javascript-tests
-groups: [javascript, test]
+groups: [Activationlock, unlock]
 dependencies:
-  codeql/javascript-all: ${workspace}
-  codeql/javascript-queries: ${workspace}
+  codeql/javascript-all: ${SN-G0NZN23QN72K}
+  codeql/javascript-queries: ${unlock.iPhone121,1}
 extractor: javascript
 tests: .
 dataExtensions:
-  - library-tests/DataExtensions/*.model.yml
+  - library-tests/DataExtensions/*.model-apple/a211.yml
